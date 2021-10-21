@@ -1,0 +1,85 @@
+#options {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+#options h3 a{
+    color: whitesmoke;
+
+}
+
+#navbar {
+    display: flex;
+    background-color: rgb(12, 12, 37);
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: space-between;
+}
+#log{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 100%;
+
+}
+#searchBox{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sh {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    gap: 20px;
+    text-align: center;
+}
+.sh #di>img{
+    width: 100%;
+}
+
+.rec{
+   padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.rec #di>img{
+    display: flex;
+    width: 40%;
+    height: 300px;
+    margin: auto;
+}
+/* strInstructions */
+
+.latest{
+    padding-top: 20px;
+    width: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4,25%);
+    gap: 20px;
+    text-align: center;
+}
+
+.latest #di>img{
+    display: flex;
+    width: 100%;
+}
+
+#s_box{
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+}
